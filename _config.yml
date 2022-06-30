@@ -1,1 +1,4 @@
 theme: jekyll-theme-slate
+title: SkyEmu
+description: GameBoy Advance, Game Boy and Game Boy Color Emulator
+show_downloads: false
