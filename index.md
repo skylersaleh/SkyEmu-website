@@ -20,14 +20,20 @@ The latest version of the emulator can be played at the following address as a p
 
 [https://web.skyemu.app/](https://web.skyemu.app/)
 
-On Mobile platforms it is recommended to add to the home screen and launch from there. This will prevent the web browser from auto deleting save files and will remove the browsers UI. 
+The web version can be played and installed on Android and iOS without needing to jailbreak. Installing to the home screen will allow it to run in full screen and prevent the web browser from auto deleting save files. 
 
-Nightly native builds can be downloaded at the following links: 
+Nightly native builds for Desktop platforms can be downloaded from the below links: 
 
-- [Windows](https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_win/main/WindowsRelease.zip)
-- [macOS](https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_mac/main/MacOSRelease.zip)
-- [Linux](https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_linux/main/LinuxRelease.zip)
+<div>
+<a href="https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_win/main/WindowsRelease.zip">  
+<img width="101" alt="Windows Download" src="https://user-images.githubusercontent.com/7118296/176842140-08c584d3-8891-410f-b667-2a4917404866.png" />
+</a>
+<a href="https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_mac/main/MacOSRelease.zip">
+<img width="101" alt="Windows Download" src="https://user-images.githubusercontent.com/7118296/176842205-301a2c7a-2095-4cc3-b46f-15957a202542.png" />
+  </a>
+<a href="https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_linux/main/LinuxRelease.zip">
+<img width="101" alt="Windows Download" src="https://user-images.githubusercontent.com/7118296/176842333-218ae56e-4f2d-4bbb-8ec7-ee4b7415f49d.png" />
+  </a>
+  
+</div>
 
-Drag and drop a rom in to load it or click on the Load .GB/.GBC/.GBA button to open a menu to select a rom. 
-
-Note: A GBA BIOS is not required as SkyEmu bundles an open source replacement BIOS. However, a dump of an official GBA BIOS should be used if you want to maximize accuracy or you like seeing the GBA intro.
