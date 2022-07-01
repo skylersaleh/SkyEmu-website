@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
 title: SkyEmu
-description: GameBoy Advance, Game Boy and Game Boy Color Emulator
+description: SkyEmu is a low level GameBoy, GameBoy Color and Game Boy Advance emulator. Its primary focus is to provide a good user experience through a good mixture of tradeoffs of accuracy, performance, features and usability.
 show_downloads: false
 github:
   repository_url: https://github.com/skylersaleh/SkyEmu
