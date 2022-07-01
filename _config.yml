@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
 title: SkyEmu
-description: Low level Game Boy, Game Boy Color and Game Boy Advance Emulator
+description: Low level Game Boy Advance, Game Boy and Game Boy Color Emulator
 show_downloads: false
 github:
   repository_url: https://github.com/skylersaleh/SkyEmu
