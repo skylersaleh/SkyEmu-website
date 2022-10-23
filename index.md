@@ -23,7 +23,7 @@ The latest version of the emulator can be played at the following address as a p
 
 The web version can be played and installed on Android and iOS without needing to jailbreak. [Installing to the home screen](https://mobilesyrup.com/2020/05/24/how-install-progressive-web-app-pwa-android-ios-pc-mac/) will allow it to run in full screen and prevent the web browser from auto deleting save files. 
 
-Nightly native builds for Desktop platforms can be downloaded from the below links: 
+Native builds for Desktop platforms can be downloaded from the below links: 
 
 <div>
 <a href="https://github.com/skylersaleh/SkyEmu/releases/download/v2/SkyEmu-v2-Windows.zip">  
