@@ -1,18 +1,19 @@
-[<img width="1015" alt="SkyEmu App Screenshot" src="https://user-images.githubusercontent.com/7118296/175430669-20c8079a-bf5c-44b6-b7da-270aca51f216.png">](https://web.skyemu.app/)
+[<img width="1015" alt="SkyEmu App Screenshot" src="https://user-images.githubusercontent.com/7118296/197385606-b12439ca-48d4-46f2-b0d5-311037430f94.png">](https://web.skyemu.app/)
 
 # Features
 
-- Highly accurate Game Boy Advanced emulation
+- Highly accurate Game Boy Advance emulation
 - Game Boy and Game Boy Color Emulation 
-- Experimental Nintendo DS support (only capable of running homebrew currently)
+- High Quality Upscaling Shaders, Color Correction, and Screen Ghosting
 - Cross Platform: Windows, MacOS, Linux, Web App (with touch screen controls for iOS and Android)
 - Game Controller and Rumble Support with configureable keybinds
-- 4x Save Slots with screenshot preview
+- 4x Persistent Save State Slots with screenshot preview
 - Game fastforward and rewind support (supporting [very long rewind times](https://www.youtube.com/watch?v=Sfc_1NKbiKg))
 - Support for emulating the Real Time Clock
 - CPU, MMIO, and Memory Debuggers
 - Dark and Light Themes
-- Support for loading official BIOS dumps
+- Support for loading official BIOS and Boot ROM dumps
+- Support for loading roms compressed in .zip archives
 
 # Download
 
@@ -25,13 +26,13 @@ The web version can be played and installed on Android and iOS without needing t
 Nightly native builds for Desktop platforms can be downloaded from the below links: 
 
 <div>
-<a href="https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_win/main/WindowsRelease.zip">  
+<a href="https://github.com/skylersaleh/SkyEmu/releases/download/v2/SkyEmu-v2-Windows.zip">  
 <img width="101" alt="Windows Download" src="https://user-images.githubusercontent.com/7118296/176842140-08c584d3-8891-410f-b667-2a4917404866.png" />
 </a>
-<a href="https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_mac/main/MacOSRelease.zip">
+<a href="https://github.com/skylersaleh/SkyEmu/releases/download/v2/SkyEmu-v2-macOS.dmg">
 <img width="101" alt="Windows Download" src="https://user-images.githubusercontent.com/7118296/176842205-301a2c7a-2095-4cc3-b46f-15957a202542.png" />
   </a>
-<a href="https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_linux/main/LinuxRelease.zip">
+<a href="https://github.com/skylersaleh/SkyEmu/releases/download/v2/SkyEmu-v2-Linux.zip">
 <img width="101" alt="Windows Download" src="https://user-images.githubusercontent.com/7118296/176842333-218ae56e-4f2d-4bbb-8ec7-ee4b7415f49d.png" />
   </a>
   
