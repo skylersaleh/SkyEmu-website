@@ -1,6 +1,6 @@
-![SkyEmu](https://github.com/skylersaleh/SkyEmu/assets/7118296/367de77a-d370-40f7-a8b5-f387bd3a6218)
+![SkyEmu](https://github.com/skylersaleh/SkyEmu-website/assets/7118296/9f1da564-8d08-40f1-a483-bf6a36e70ea1)
 
-SkyEmu is a low level GameBoy, GameBoy Color, Game Boy Advance, and Nintendo DS emulator. Its primary focus is to provide a good user experience through a good mixture of tradeoffs of accuracy, performance, features and usability.
+SkyEmu is a low level GameBoy, GameBoy Color, Game Boy Advance, and Nintendo DS emulator whose primary focus is to provide a good user experience through a good mixture of tradeoffs of accuracy, performance, features and usability.
 
 # Features
 
@@ -72,31 +72,3 @@ Native builds support loading roms through the command line by specifying the pa
 ```
 ./SkyEmu path/to/rom.gba
 ```
-
-## Accuracy/Compatibility
-
-SkyEmu has been tested on 100s of ROMs and most common games should be playable with no to minor bugs currently. However, the GBA emulation is significantly more accurate than the GB/GBC emulation. 
-
-**GBA**:
-- Per Pixel PPU Implementation capable of both scan line and mid scan line effects (SkyEmu and NanoBoyAdvance are the only GBA emulators released to support this) 
-- Passes the AGS Aging Test ROM (SkyEmu is the second SW based GBA emulator to ever pass this)
-- Can run difficult to emulate GBA games such as the NES Classics Series, Golden Sun and Hello Kitty Miracle Fashion Maker
-- 100% Passes all ArmWrestler Tests
-- 100% Passes all FuzzARM tests
-- 100% Passes arm.gba and thumb.gba
-- Passes 2020/2020 GBA Suite timing tests when utilizing the official Nintendo GBA BIOS (SkyEmu is one of the few emulators capable of passing this test).
-- Full instruction pipeline and prefetch emulation
-
-**GB**: 
-- Passes all of Blargg's CPU instruction tests
-- Passes DMG and GBC acid2 PPU conformance tests
-- Passes MBCtest
-- Dotclk based PPU implementation
-- Anti-aliased audio synthesis with support for APU changes per sample (supports Pikachu's voice in Pokemon Yellow/Pokemon Pinball)
-
-## Birds of a Feather
-- [**Pokemon Bot**](https://github.com/OFFTKP/pokemon-bot): A discord bot that can connect to SkyEmu to allow your discord users to play GB/GBC/GBA/NDS games. 
-- [**Panda3DS**](https://github.com/wheremyfoodat/Panda3DS): Panda themed HLE Nintendo 3DS emulator
-- [**NanoBoyAdvance**](https://github.com/nba-emu/NanoBoyAdvance): A Game Boy Advance emulator focusing on hardware research and cycle-accurate emulation
-- [**Dust**](https://github.com/kelpsyberry/dust): Nintendo DS emulator for desktop devices and the web
-- [**Kaizen**](https://github.com/SimoneN64/Kaizen): Experimental work-in-progress low-level N64 emulator
