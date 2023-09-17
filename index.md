@@ -22,15 +22,26 @@ SkyEmu is a low level GameBoy, GameBoy Color, Game Boy Advance, and Nintendo DS 
 
 ## Download / Usage
 
-Native builds can be downloaded at: https://github.com/skylersaleh/SkyEmu/releases
+Stable builds can be downloaded at: [https://github.com/skylersaleh/SkyEmu/releases](https://github.com/skylersaleh/SkyEmu/releases)
 
-The latest version of the emulator can also be played without installing at the following address as a progressive web app:
+Dev builds can be found here:
 
-https://web.skyemu.app/
+[Windows](https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_win/dev/WindowsRelease.zip) | [MacOS](https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_mac/dev/MacOSRelease.zip) | [Linux](https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_linux/dev/LinuxRelease.zip) | [FreeBSD](https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_freebsd/dev/FreeBSDRelease.zip) | [Android](https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_android/dev/AndroidRelease.zip) | 
+[iOS](https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_ios/dev/iOSRelease.zip)
 
-On Mobile platforms it is recommended to add this to the home screen and launch from there. This will prevent the web browser from auto deleting save files and will make the app full screen. 
 
-Note: Platform BIOS/Firmware files are not required as SkyEmu bundles open source replacement BIOS/stubs. However, it is strongly recommended to dump official BIOS/firmware as the open source replacements lack many of the features of the native firmware/BIOS (such as colorizing GB games and the startup splashes) and are not as accurate. 
+
+
+
+The latest stable version of the emulator can also be played without installing at the following address as a progressive web app:
+
+[https://web.skyemu.app/](https://web.skyemu.app/)
+
+Alternatively, you can use the [dev version](https://web.skyemu.app/branch/dev) for testing new features.
+
+On Mobile platforms, it is recommended to add this to the home screen and launch from there. This will prevent the web browser from auto deleting save files and will make the app full screen. 
+
+Note: Platform BIOS/Firmware files are not required, as SkyEmu bundles open source replacement BIOS/stubs. However, it is strongly recommended to dump official BIOS/firmware as the open source replacements lack many of the features of the native firmware/BIOS (such as colorizing GB games and the startup splashes) and are not as accurate. 
 
 ## Discord Server
 
