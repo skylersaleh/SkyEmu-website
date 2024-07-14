@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SkyEmu</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<script>
+			function Rpog() {
+				this.x = 0;
+				this.y = 0;
+				this.xVel = 0;
+				this.yVel = 0;
+
+				this.rpog = document.createElement('div');
+
+				this.rpog.className = 'rpog';
+				document.body.appendChild(this.rpog);
+
+				if(Math.random() > 0.5) {
+					this.position = document.documentElement.width;
+					this.direction = -1;
+				} else {
+					this.position = -15;
+					this.direction = 1;
+				}
+
+				this.spawnOnPage = function(x, y) {
+					this.x = x;
+					this.y = y;
+					this.xVel = Math.random() * 10 - 5;
+					this.yVel = Math.random() * 8 + 2.5;
+				}
+
+				this.move = function() {
+					this.x += this.xVel;
+					this.y -= this.yVel;
+
+					this.xVel -= this.xVel / 250;
+
+					/*if (this.yVel > -8) {
+						this.yVel -= 0.05;
+					}*/
+					this.yVel -= 0.05;
+
+					this.rpog.style.top = this.y + "px";
+					this.rpog.style.left = this.x + "px";
+
+					if (this.y > document.documentElement.clientHeight) {
+						this.rpog.parentNode.removeChild(this.rpog);
+						return false;
+					}
+					return true;
+				}
+			}
+
+			var rpogs = [];
+
+			setInterval(function() {
+				var rpog = new Rpog();
+				rpog.spawnOnPage((document.documentElement.clientWidth / 2) - 48, document.documentElement.clientHeight);
+				rpogs.push(rpog);
+			}, 25);
+
+			setInterval(function() {
+				for (var i in rpogs) {
+					var g = rpogs[i];
+					if (!g.move()) {
+						rpogs.splice(i, 1);
+					}
+				}
+			}, 5);
+		</script>
+		<style>
+			body {
+				background: black;
+				overflow: hidden;
+			}
+			.rpog {
+				top: -72px;
+				background: url('icon-nobg.png');
+				position: absolute;
+				width: 96px;
+				height: 72px;
+			}
+			@media (max-width: 600px) {
+				.rpog { transform: scale(0.5); }
+			}
+		</style>
+	</head>
+	<body>
+	</body>
+</html>
+
